@@ -1,0 +1,12 @@
+---
+- include: install-apache.yml
+
+- name: Start Apache
+  service:
+    name: apache
+    state: started
+    enabled: yes
+  become: yes
+
+- name: Start/Restart Apache
+  service: name=apache state=restarted
