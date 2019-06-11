@@ -1,6 +1,7 @@
 ---
 - include: install-apache.yml
-
+  notify:
+   - Start/Restart Apache
 #- name: Start Apache
 #  service:
 #    name: apache
@@ -8,5 +9,5 @@
 #    enabled: yes
 #  become: yes
 
-- name: Start/Restart Apache
-  service: name=apache state=restarted
+#- name: Start/Restart Apache
+#  service: name=apache2 state=restarted
