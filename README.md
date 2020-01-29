@@ -1,6 +1,6 @@
 ## DESCRIPTION
 ### =========
-this is ansible role created for installing & configure apache 2.4. It is the best to combine with ans-common role.
+this is ansible role created for installing & configure apache 2.4. It is the best to combine with ans-common role. Check [here](https://galaxy.ansible.com/iilness2/ans_common)
 Tested at AWS EC2 Ubuntu
 
 ## Author Information
