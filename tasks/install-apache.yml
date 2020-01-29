@@ -1,7 +1,7 @@
 ---
 - name: Install Apache
   apt:
-    name: apache2
+    name: apache2=2.4
     state: present
     update_cache: yes
  
